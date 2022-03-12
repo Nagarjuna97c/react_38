@@ -1,0 +1,39 @@
+.course-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 5px;
+}
+
+.project-image {
+  height: 400px;
+}
+
+.title-and-calendar-container {
+  display: grid;
+  grid-template-columns: 1fr 50px 100px;
+  align-items: center;
+}
+
+.project-title {
+  font-size: 28px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.calendar {
+  font-size: 18px;
+}
+
+.project-description {
+  font-size: 19px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0967d2;
+  font-size: 20px;
+  font-weight: bold;
+}

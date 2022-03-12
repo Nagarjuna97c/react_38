@@ -1,0 +1,48 @@
+.course-card {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 5px;
+}
+
+.card-title {
+  font-size: 30px;
+  color: #1e293b;
+}
+
+.title-and-duration-container {
+  display: grid;
+  grid-template-columns: 1fr 20px 80px;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.duration {
+  color: #1e293b;
+  font-size: 18px;
+}
+
+.card-description {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.tags-container {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #1e293b21;
+  color: #1e293b;
+  font-weight: bold;
+  padding: 3px 5px;
+  border-radius: 8px;
+}
